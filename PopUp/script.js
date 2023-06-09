@@ -19,5 +19,4 @@ modal.addEventListener("click", ()=>{
         modal.style.display = "none";
         modalContent.classList.remove("slide-up");
     }, 500)
-    
 })
