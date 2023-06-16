@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;  
+  padding-top: 100px;
+  flex-direction: column;
+  background: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1060&t=st=1686892420~exp=1686893020~hmac=34c5df36f4b3bd6e3e18aad91a868358a8f90109bbf6e7e5b7f3cebc4601bda8") no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1{
+  font-size: 55px;
+  color: #fff;
+  line-height: 2;
+}
+
+#countDown{
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 40px;
+  font-size: 45px;
+  color: beige;
+  border-radius: 5px;
+}
