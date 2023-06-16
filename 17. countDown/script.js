@@ -1,4 +1,10 @@
-const countTo = "21 Dec 2023";
+const date = document.getElementById("date");
+let countTo = "21 Dec 2023";
+date.addEventListener("change", ()=>{
+    countTo = date.value;
+    console.log(countTo);
+})
+
 
 const c = setInterval(()=>{
     const endDate = new Date (countTo);

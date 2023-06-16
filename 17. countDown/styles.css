@@ -60,3 +60,9 @@ h1{
   color: beige;
   border-radius: 5px;
 }
+
+label{
+  font-size: 15px;
+  color: blanchedalmond;
+  font-weight: 700;
+}
